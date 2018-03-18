@@ -10,10 +10,9 @@
 
   
       <style>
-      /* NOTE: The styles were added inline because Prefixfree needs access to your styles and they must be inlined if they are on local disk! */
-      @import url(https://fonts.googleapis.com/css?family=Roboto:400,100,100italic,300,300italic,400italic,500,500italic,700,700italic,900,900italic);
+      @import url(https://fonts.googleapis.com/css?family=Cormorant:400,100,100italic,300,300italic,400italic,500,500italic,700,700italic,900,900italic);
 * {
-		font-family: "Roboto", Arial, sans-serif;
+		font-family: "Cormorant", sans-serif;
 }
 
 body {
@@ -24,18 +23,13 @@ body {
 }
 
 h1 {
-		font-weight: 100;
+	font-size: 4.5vw;
+	font-weight: 100;
 		color: #777;
 }
-
-.main-wrapper {
-		border-radius: 4px;
-		background-color: white;
-		padding: 20px;
-		box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
-		position: relative;
+p {
+font-size: 18px;
 }
-
 i.material-icons {
 		font-size: 1.5rem;
 		color: white;
@@ -44,7 +38,7 @@ i.material-icons {
 		padding: 5px;
 		margin: 3px;
 		box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
-		transition: color 0.2s ease, background-color 0.2s ease, transform 0.3s ease;
+		transition: color 0.2s ease, background-color 0.2s ease, transform .8s ease;
 }
 
 i.material-icons:after {
@@ -57,7 +51,7 @@ i.material-icons:after {
 		top: -2px;
 		left: -2px;
 		border-radius: 50%;
-		transition: all 0.3s ease;
+		transition: all .3s ease;
 }
 
 i.material-icons:hover:after {
@@ -90,15 +84,15 @@ i.material-icons:nth-of-type(5):after {
 }
 
 i.material-icons:nth-of-type(6) {
-		background-color: #8897b9;
+		background-color: #b27b4e;
 }
 
 i.material-icons:nth-of-type(6):hover {
-		color: #8897b9;
+		color: #b27b4e;
 }
 
 i.material-icons:nth-of-type(6):after {
-		border-color: #8897b9;
+		border-color: #b27b4e;
 }
 
 i.material-icons:nth-of-type(7) {
@@ -118,35 +112,102 @@ i.material-icons:nth-of-type(8) {
 }
 
 i.material-icons:nth-of-type(8):hover {
-		color: #d59acb;
+		color: #e37f66;
 }
 
 i.material-icons:nth-of-type(8):after {
-		border-color: #d59acb;
+		border-color: #e37f66;
 }
 
+i.material-icons:nth-of-type(8) {
+		background-color: #e37f66;
+}
+i.material-icons:nth-of-type(9):hover {
+		color: #666666;
+}
+i.material-icons:nth-of-type(9) {
+		background-color: #666666;
+}
+
+i.material-icons:nth-of-type(9):after {
+	border-color: #666666;
+	}
+	i.material-icons:nth-of-type(10){
+		background-color: #eec900;
+}
+	i.material-icons:nth-of-type(10):hover {
+		color: #eec900;
+}
+i.material-icons:nth-of-type(10):after {
+		border-color: #eec900;
+		}
+	i.material-icons:nth-of-type(11){
+		background-color: #97e59c;
+}
+	i.material-icons:nth-of-type(11):hover {
+		color: #97e59c;
+}
+i.material-icons:nth-of-type(11):after {
+		border-color: #97e59c;
+		}
+	i.material-icons:nth-of-type(12){
+		background-color: #f66ff6;
+}
+	i.material-icons:nth-of-type(12):hover {
+		color: #f66ff6;
+}
+i.material-icons:nth-of-type(12):after {
+		border-color: #f66ff6;
+		}
+	i.material-icons:nth-of-type(13){
+		background-color: #4b0082;
+}
+	i.material-icons:nth-of-type(13):hover {
+		color: #4b0082;
+}
+i.material-icons:nth-of-type(13):after {
+		border-color: #4b0082;
+}
+	i.material-icons:nth-of-type(15){
+		background-color: #008080;
+}
+	i.material-icons:nth-of-type(15):hover {
+		color: #008080;
+}
+i.material-icons:nth-of-type(15):after {
+		border-color: #008080;
+}
+	i.material-icons:nth-of-type(16){
+		background-color: #001449;
+}
+	i.material-icons:nth-of-type(16):hover {
+		color: #001449;
+}
+i.material-icons:nth-of-type(16):after {
+		border-color: #001449;
+}
 i.material-icons:nth-of-type(1) {
-		background-color: #cd8484;
+		background-color: #9c3d38;
 }
 
 i.material-icons:nth-of-type(1):hover {
-		color: #cd8484;
+		color: #87201b;
 }
 
 i.material-icons:nth-of-type(1):after {
-		border-color: #cd8484;
+		border-color: #9c3d38;
 }
 
 i.material-icons:nth-of-type(2) {
-		background-color: #ec9f83;
+		background-color: #8897b9;
 }
 
 i.material-icons:nth-of-type(2):hover {
-		color: #ec9f83;
+		color: #8897b9;
 }
 
 i.material-icons:nth-of-type(2):after {
-		border-color: #ec9f83;
+		border-color: #8897b9;
 }
 
 i.material-icons:nth-of-type(3) {
@@ -161,9 +222,20 @@ i.material-icons:nth-of-type(3):after {
 		border-color: #cdb274;
 }
 
+i.material-icons:nth-of-type(14) {
+		background-color: #ffa500;
+}
+
+i.material-icons:nth-of-type(14):hover {
+		color: #ffa500;
+}
+
+i.material-icons:nth-of-type(14):after {
+		border-color: #ffa500;
+}
 i.material-icons:hover {
 		background-color: transparent;
-		transform: rotate(90deg);
+		transform: rotate(360deg);
 		cursor: pointer;
 		box-shadow: none;
 }
@@ -193,7 +265,36 @@ p {
 		top:-3px;
 		left:-3px;
 	}
+	
+.wrapper__message-.-btn-square{
+  padding: 8px 1.4vw;
+	position: relative;
+  color: #787878;
+  font-size:1.5vw;
+  text-decoration: none;
+  display: table;
+	float: left;
+  margin: 0px 3px 0px 3px ;
+
+ -webkit-transition: all .6s ease-in-out;
+  -moz-transition: all .6s ease-in-out;
+  -o-transition: all .6s ease-in-out;
+  transition: all .6s ease-in-out;
 }
+
+.wrapper__message-.-btn-square:hover{
+  background: rgba(255,255,255,.8);
+  color: #3E3C3C;
+   -webkit-transition: all .5s ease-in-out;
+  -moz-transition: all .5s ease-in-out;
+  -o-transition: all .5s ease-in-out;
+  transition: all .5s ease-in-out;
+}
+
+
+}
+
+
     </style>
 
     <script src="https://cdnjs.cloudflare.com/ajax/libs/prefixfree/1.0.7/prefixfree.min.js"></script>
@@ -202,18 +303,42 @@ p {
 
 <body>
 
-  <h1>Rotating Icon Buttons</h1>
-<div class="main-wrapper">
-		<i class="material-icons">attach_file</i>
-		<i class="material-icons">settings</i>
-		<i class="material-icons">refresh</i>
-		<i class="material-icons">search</i>
-		<i class="material-icons">explore</i>
-		<i class="material-icons">public</i>
-		<i class="material-icons">autorenew</i>
-		<i class="material-icons">add</i>
+ <h1>The Kellogg Achievement Diary</h1>
+<a class="wrapper__message- -btn-square" href="#"> &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp</a>
+<a class="wrapper__message- -btn-square" href="#"> &nbsp &nbsp  &nbsp &nbsp My Points &nbsp &nbsp &nbsp &nbsp</a>
+<a class="wrapper__message- -btn-square" href="#">&nbsp &nbsp &nbsp &nbsp League Table &nbsp &nbsp &nbsp &nbsp</a>
+<a class="wrapper__message- -btn-square" href="#">&nbsp &nbsp &nbsp &nbsp &nbsp &nbsp Prizes &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp</a>
+<a class="wrapper__message- -btn-square" href="#"> &nbsp&nbsp&nbsp&nbsp&nbspAsk a Question &nbsp&nbsp&nbsp&nbsp&nbsp</a>
+
 </div>
-<p>CodePen by Cole Waldrip</p>
+<br>
+<br>
+<br>
+<br>
+<br>
+		<i class="material-icons">code</i>
+		<i class="material-icons">queue_music</i>
+		<i class="material-icons">speaker_notes</i>
+		<i class="material-icons">contacts</i>
+<br>
+		<i class="material-icons">code</i>
+		<i class="material-icons">straighten</i>
+		<i class="material-icons">book</i>
+		<i class="material-icons">color_lens</i>
+<br>
+		<i class="material-icons">add</i>
+		<i class="material-icons">music_video</i>
+		<i class="material-icons">public</i>
+		<i class="material-icons">search</i>
+<br>
+<i class="material-icons">close</i>
+		<i class="material-icons">star_border</i>
+		<i class="material-icons">videocam</i>
+		<i class="material-icons">face</i>
+</div>
+
+
+
   
   
 
